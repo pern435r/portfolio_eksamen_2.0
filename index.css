@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+/*desktop--------------------_-----------*/
+@media (min-width: 800px) {
+
+    body {
+        margin: 0;
+    }
+
+    p {
+        padding-left: 29%;
+        padding-right: 29%;
+        text-align: justify;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        font-size: 18px;
+    }
+
+    p::first-letter {
+        color: #815355;
+        font-weight: bold;
+        /*        margin-right: 0.5em;*/
+        font-size: 100px;
+        position: relative;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 0;
+    }
+
+    footer a {
+        float: right;
+        font-size: 2rem;
+        right: 30px;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+
+    #second_section {
+        padding: 0 2% 1% 2%;
+    }
+
+    .splash {
+        background-image: url(hoej_forside_illustration.svg);
+        background-size: contain;
+        height: 178vw;
+    }
+
+    h1 {
+        font-family: 'Major Mono Display', monospace;
+        color: white;
+        padding-top: 99%;
+        font-size: 1.70rem;
+        text-align: center;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        padding: 0 3% 0 3%;
+    }
+
+    p::first-letter {
+        color: #815355;
+        font-weight: bold;
+        font-size: 2.10rem;
+        position: relative;
+    }
+
+}
